@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+@font-face {
+    font-family: "Karmatic";
+    src: url("ka1.ttf");
+}
+
+@font-face {
+    font-family: "METALORD";
+    src: url("metalord.TTF");
+}
+
+body {
+    background-color: #77966dff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    border: black;
+  }
+
+p{
+    color:#33312eff;
+    font-family: fantasy;
+    font-size: 200%; 
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-weight: lighter;
+    font-style: normal;
+    
+}
+h1 {
+    color:black;
+    font-family: Karmatic;
+    margin-top: 6%;
+    font-size: 350%;
+}
+.center2 {
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+a {
+    display:inline-block;
+    padding: 8px 16px;
+    background-color: rgb(63, 126, 55);
+    color: white;
+    text-decoration: none;
+    border-radius: 16px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.navbar{
+    background-color: rgb(90, 90, 90);
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    background-color: rgb(90, 90, 90);
+    text-align: right;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    color: rgb(243, 236, 236);
+    background-color: rgb(90, 90, 90);
+}
+.topnav-right {
+    float: right;
+    color:#33312eff;
+    font-family: fantasy;
+}
+.topnav-left {
+    float: left;
+    color:#33312eff;
+    font-family: METALORD;
+    font-size: 130%;
+    font-weight: bolder; 
+}
+
+
+/* bottom nav bar */
+.bottomnav-center{
+    color:#33312eff;
+    height: 2cm;
+    background-color: rgb(90, 90, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar2{
+    background-color: rgb(90, 90, 90);
+    height: 2cm;
+    width: 35.7cm;
+}
+.navbar2 li{
+    list-style: none; 
+    margin: 13px 20px;
+    background-color: rgb(90, 90, 90);
+    size: 100cm;
+}
+.navbar2 ul{
+    overflow: auto;
+    float: center;
+}
+.navbar2 li a{
+    padding: 3px 3px;
+    color: rgb(243, 236, 236);
+    background-color: rgb(90, 90, 90);
+    align-self: center;
+}
